@@ -1,0 +1,16 @@
+.header {
+  position: relative;
+}
+
+.header__title {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  line-height: 34px;
+  font-size: 28px;
+  text-align: center;
+  color: #ffffff80;
+  position: fixed;
+  left: 50%;
+  top: 40px;
+  transform: translate(-50%, 50%);
+}

@@ -1,0 +1,15 @@
+.footer {
+  position: relative;
+}
+
+.footer__name {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 36px;
+  color: #ffffff80;
+  position: fixed;
+  left: 50%;
+  bottom: 40px;
+  transform: translate(-50%, 50%);
+}

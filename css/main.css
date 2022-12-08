@@ -1,0 +1,36 @@
+.info {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.info__degrees {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  color: #fff;
+}
+
+.info__сity {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 36px;
+  font-size: 24px;
+  color: #ffffffcc;
+}
+
+.btn {
+  font-family: "Mulish", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 28px;
+  font-size: 17px;
+  color: #ffffff80;
+  cursor: pointer;
+  border: none;
+  background: none;
+  margin-top: 36px;
+}
