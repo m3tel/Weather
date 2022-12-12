@@ -34,3 +34,51 @@
   background: none;
   margin-top: 36px;
 }
+
+.city__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input__city {
+  background: inherit;
+  border: none;
+  border-bottom: 2px solid #ffffffbf;
+  margin-bottom: 36px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffffbf;
+}
+
+.input__city::placeholder {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffffb2;
+  text-align: center;
+}
+
+.input__city:focus {
+  outline: none;
+  text-align: center;
+}
+
+.btn__find {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: #4c01e0;
+  background: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
