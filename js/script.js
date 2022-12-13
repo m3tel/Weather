@@ -64,3 +64,5 @@ async function getIpLocation() {
   return (cityChange.innerText = data.location.city);
 }
 getIpLocation();
+
+// Функция отрисовки выбора города
